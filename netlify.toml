@@ -1,0 +1,3 @@
+# Site estático: index.html e visita 3D na raiz do repositório.
+[build]
+  publish = "."
