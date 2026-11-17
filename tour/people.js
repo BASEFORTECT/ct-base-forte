@@ -9,7 +9,7 @@ export function createPopulation(T,scene,obstacles){
     {x:.1,z:-5.55,index:4},{x:7.5,z:-3.6,index:3},
     {x:6,z:-1.8,index:2,seated:true},{x:7,z:5.5,index:4}
   ];
-  const url=new URL('./assets/pessoas-fotograficas.webp',import.meta.url).href;
+  const url=new URL('./assets/professores-treino.webp',import.meta.url).href;
   const loader=new T.TextureLoader();
   loader.load(url,atlas=>{
     const image=atlas.image,cell=image.width/6;
