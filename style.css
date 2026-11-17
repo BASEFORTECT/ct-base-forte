@@ -30,3 +30,5 @@
 @media(max-width:1000px){.bf-athlete-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.bf-athlete-photo{height:360px}}
 @media(max-width:620px){.bf-athlete-grid{grid-template-columns:minmax(0,1fr);gap:24px}.bf-athlete-photo{height:390px}.bf-athlete-body{padding:24px}.bf-athlete-body header{min-height:108px}.bf-athlete-body blockquote p{font-size:15px}.bf-athlete-footer a{display:block}}
 @media(prefers-reduced-motion:reduce){.bf-athlete-photo img{transition:none}}
+
+.bf-athlete-body>header{display:block;position:static;inset:auto;width:auto;height:auto;padding:0 0 20px;margin:0;background:transparent;border:0;box-shadow:none;backdrop-filter:none;z-index:auto}.bf-athlete-body>header h3{display:block;margin:0 0 10px}.bf-athlete-body>header p{display:block}
